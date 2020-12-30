@@ -1,0 +1,146 @@
+EESchema Schematic File Version 4
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L arduino:Arduino_Uno_Shield XA1
+U 1 1 5FEBC3CE
+P 4150 3550
+F 0 "XA1" H 4150 4937 60  0000 C CNN
+F 1 "Arduino_Uno_Shield" H 4150 4831 60  0000 C CNN
+F 2 "Arduino:Arduino_Uno_Shield" H 5950 7300 60  0001 C CNN
+F 3 "https://store.arduino.cc/arduino-uno-rev3" H 5950 7300 60  0001 C CNN
+	1    4150 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x14_Counter_Clockwise J1
+U 1 1 5FEBED35
+P 7600 3400
+F 0 "J1" H 7650 4217 50  0000 C CNN
+F 1 "28 ZIF Socket" H 7650 4126 50  0000 C CNN
+F 2 "ZIF:ZIF-DIP-28_98" H 7600 3400 50  0001 C CNN
+F 3 "~" H 7600 3400 50  0001 C CNN
+	1    7600 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2900 8250 2900
+Wire Wire Line
+	7900 3000 8350 3000
+Wire Wire Line
+	7900 3100 8450 3100
+Wire Wire Line
+	7400 2800 6800 2800
+Wire Wire Line
+	7400 3100 6850 3100
+Wire Wire Line
+	5450 3300 5750 3300
+Wire Wire Line
+	5450 3400 5850 3400
+Wire Wire Line
+	5450 3500 6000 3500
+Wire Wire Line
+	5450 3600 6150 3600
+Wire Wire Line
+	2850 4100 2350 4100
+Wire Wire Line
+	5450 4500 5750 4500
+Wire Wire Line
+	2850 4500 2550 4500
+$Comp
+L power:GND #PWR01
+U 1 1 5FEC3353
+P 2350 4100
+F 0 "#PWR01" H 2350 3850 50  0001 C CNN
+F 1 "GND" H 2355 3927 50  0000 C CNN
+F 2 "" H 2350 4100 50  0001 C CNN
+F 3 "" H 2350 4100 50  0001 C CNN
+	1    2350 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 5FEC39DD
+P 6850 3100
+F 0 "#PWR04" H 6850 2850 50  0001 C CNN
+F 1 "GND" H 6855 2927 50  0000 C CNN
+F 2 "" H 6850 3100 50  0001 C CNN
+F 3 "" H 6850 3100 50  0001 C CNN
+	1    6850 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C1
+U 1 1 5FEC4132
+P 5750 4650
+F 0 "C1" H 5868 4696 50  0000 L CNN
+F 1 "CP" H 5868 4605 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D4.0mm_P2.00mm" H 5788 4500 50  0001 C CNN
+F 3 "~" H 5750 4650 50  0001 C CNN
+	1    5750 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5FEC4D6E
+P 5750 4800
+F 0 "#PWR03" H 5750 4550 50  0001 C CNN
+F 1 "GND" H 5755 4627 50  0000 C CNN
+F 2 "" H 5750 4800 50  0001 C CNN
+F 3 "" H 5750 4800 50  0001 C CNN
+	1    5750 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR02
+U 1 1 5FEC56D1
+P 2550 4500
+F 0 "#PWR02" H 2550 4350 50  0001 C CNN
+F 1 "VCC" H 2567 4673 50  0000 C CNN
+F 2 "" H 2550 4500 50  0001 C CNN
+F 3 "" H 2550 4500 50  0001 C CNN
+	1    2550 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR05
+U 1 1 5FEC6333
+P 8450 2800
+F 0 "#PWR05" H 8450 2650 50  0001 C CNN
+F 1 "VCC" H 8467 2973 50  0000 C CNN
+F 2 "" H 8450 2800 50  0001 C CNN
+F 3 "" H 8450 2800 50  0001 C CNN
+	1    8450 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 2800 8450 2800
+Text Label 6800 2800 0    50   ~ 0
+Pin10
+Text Label 5750 3300 0    50   ~ 0
+Pin10
+Text Label 8250 2900 0    50   ~ 0
+Pin13
+Text Label 5850 3400 0    50   ~ 0
+Pin13
+Text Label 8350 3000 0    50   ~ 0
+Pin12
+Text Label 6000 3500 0    50   ~ 0
+Pin12
+Text Label 8450 3100 0    50   ~ 0
+Pin11
+Text Label 6150 3600 0    50   ~ 0
+Pin11
+$EndSCHEMATC
